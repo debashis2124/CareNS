@@ -108,7 +108,7 @@ The experiments show that the value of symbolic knowledge depends on the dataset
 ## Repository Structure
 
 A typical project structure is:
-
+```bash
 CareNS/
 ├── data/
 ├── results/
@@ -118,7 +118,7 @@ CareNS/
 ├── run_complete.py
 ├── requirements.txt
 └── README.md
-
+```
 ## How to Run
 
 Follow the steps below to run the CareNS experiments.
@@ -135,9 +135,4 @@ python3 -m pip install -r requirements.txt
 python run_carens.py
 
 
-One thing to verify before adding this: if your actual main Python file is not `carens.py`, replace that filename with the exact script name used in the repository.
-
-For the README setup section
-
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
+One thing to verify before adding this: if your actual main Python file is not `carens.py`, replace that filename with the exact script name used in the repository. If you need more details, contact: debashis.das@ieee.org
